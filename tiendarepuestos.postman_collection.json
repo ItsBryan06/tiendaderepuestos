@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "50b71edb-cccd-4bb9-8cea-ebf0bad03633",
+		"name": "tiendarepuestos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "traer clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/clientes",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscar cliente por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/clientes/5d4909831c9d440000c23ac1",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"clientes",
+						"5d4909831c9d440000c23ac1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mostrar autopartes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/autopartes",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"autopartes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar autoparte por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/autopartes/5d490da71c9d4400006a3929",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"autopartes",
+						"5d490da71c9d4400006a3929"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar proveedores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/proveedores",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"proveedores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar proveedores por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/proveedores/5d49b2261c9d440000886b10",
+					"protocol": "https",
+					"host": [
+						"3000-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"proveedores",
+						"5d49b2261c9d440000886b10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar envio por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://27017-e034f67f-c1eb-40d7-a3e0-9919a76bdb76.ws-us0.gitpod.io/autopartes/5d490c551c9d440000c23ac6",
+					"protocol": "https",
+					"host": [
+						"27017-e034f67f-c1eb-40d7-a3e0-9919a76bdb76",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"autopartes",
+						"5d490c551c9d440000c23ac6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
