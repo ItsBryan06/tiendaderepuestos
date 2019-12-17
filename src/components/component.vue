@@ -32,9 +32,27 @@
     <v-tabs-items v-model="tabs">
       <v-tab-item>
         <v-card flat>
-          <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </v-card-text>
+      <v-card
+    class="mx-auto"
+    max-width="344"
+    outlined
+  >
+    <v-list-item three-line>
+      <v-list-item-content>
+        <div class="overline mb-4">OVERLINE</div>
+        <v-list-item-title class="headline mb-1">NOMBRE Y APELLIDO DEL USUARIO</v-list-item-title>
+        <v-list-item-subtitle>DIRECCIÓN</v-list-item-subtitle>
+        <v-list-item-subtitle>TELÉFONO</v-list-item-subtitle>
+        <v-list-item-subtitle>CORREO</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      ></v-list-item-avatar>
+    </v-list-item>
+    </v-card>
         </v-card>
       </v-tab-item>
       <v-tab-item>
